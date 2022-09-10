@@ -263,13 +263,7 @@
     text-decoration: none;
     cursor: pointer;
   }
-  
-  @media only screen and (max-width: 700px){
-    .modal-content {
-      width: 100%;
-    }
-  }
-  
+    
   .main {   
     -ms-flex: 70%; 
     flex: 70%;
@@ -297,6 +291,19 @@
   @media screen and (max-width: 700px) {
     .navbar a {
       float: none;
+      width: 100%;
+    }
+  }
+
+  @media screen and (max-width: 700px) {
+    .dropdown {
+      float: none;
+      width: 100%;
+    }
+  }
+
+  @media only screen and (max-width: 700px){
+    .modal-content {
       width: 100%;
     }
   }
